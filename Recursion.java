@@ -7,7 +7,7 @@ package recurse;
 public class Recursion {
     
     public static void main(String[] args) {
-        new Recursion().recurse(new Recurse("recurse"));
+        new Recursion().recurse(new Recurse(""));
     }
     
     Recurse.recurse recurse(Recurse recurse) {
