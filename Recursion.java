@@ -1,57 +1,58 @@
-package recurse;
 
-/**
- *
- * @author Forest
- */
-public class Recursion {
+public class Obfuscation {
     
     public static void main(String[] args) {
-        new Recursion().recurse(new Recurse(""));
+        new Obfuscation().obfuscate(new Obfuscate(""));
     }
     
-    Recurse.recurse recurse(Recurse recurse) {
-        return recurse(recurse.recurse(recurse).recurse(recurse.recurse(recurse).recurse(recurse) + recurse.recurse(recurse).recurse(recurse.recurse(recurse).Recurse(recurse), recurse.recurse(recurse).Recurse(recurse.recurse(recurse))))); //what does it do?!?!?1
+    //what does the longest version of the string in line 18 contain after a call of the following method, provided that it does not recurse?
+    //the code has been edited so that it will not compile properly to prevent people from editing the code and running it.
+    Obfuscate.obfuscate obfuscate(Obfuscate obfuscate) {
+        return obfuscate(obfuscate.obfuscate(obfuscate).obfuscate(obfuscate.obfuscate(obfuscate).obfuscate(obfuscate) + obfuscate.obfuscate(obfuscate).obfuscate(obfuscate.obfuscate(obfuscate).Obfuscate(obfuscate), obfuscate.obfuscate(obfuscate).Obfuscate("obfuscat3 "), obfuscate.obfuscate(obfuscate).Obfuscate(obfuscate.obfuscate(obfuscate))))); //what does it do?!?!?1
     }
     
 }
 
-class Recurse {
+class Obfuscate {
 
-    String recurse;
+    String obfuscate;
     
-    public Recurse(String recurse) {
-        this.recurse = recurse;
+    public Obfuscate(String obfuscate) {
+        this.obfuscate = obfuscate;
     }
     
-    public String Recurse() {
-        return this.recurse;
+    public String Obfuscate() {
+        return this.obfuscate;
     }
     
-    public recurse recurse(Recurse recurse) {
-        return recurse.new recurse();
+    public obfuscate obfuscate(Obfuscate obfuscate) {
+        return obfuscate.new obfuscate();
     }
     
-    public class recurse {
+    public class obfuscate {
         
-        public Recurse recurse(String recurse) {
-            return new Recurse(Recurse.this.recurse + recurse);
+        public Obfuscate obfuscate(String obfuscate) {
+            return new Obfuscate(Obfuscate.this.obfuscate + obfuscate);
         }
         
-        public String recurse(Recurse recurse) {
-            return recurse.Recurse();
+        public String obfuscate(Obfuscate obfuscate) {
+            return obfuscate.Obfuscate();
         }
         
-        public String recurse(String recurse, String Recurse) {
-            return recurse + Recurse;
+        public String obfuscate(String obfuscate, String Obfuscate, String Obfuscat3) {
+            return Obfuscat3 + obfuscate + Obfuscate;
         }
         
-        public String Recurse(Recurse recurse) {
-            return "Hello ";
+        public String Obfuscate(String obfuscate){
+        	return obfuscate;
         }
         
-        public String Recurse(Recurse.recurse recurse) {
-            return "World! ";
+        public String Obfuscate(Obfuscate obfuscate) {
+            return "Obfuscate ";
+        }
+        
+        public String Obfuscate(Obfuscate.obfuscate obfuscate) {
+            return "obfuscate ";
         }
     }
 }
