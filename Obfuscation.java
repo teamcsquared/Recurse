@@ -39,7 +39,7 @@ class Obfuscate {
         }
         
         public String obfuscate(String obfuscate, String Obfuscate, String Obfuscat3) {
-            return Obfuscat3 + obfuscate + Obfuscate; 
+            return [redacted]; //you might want to read up on some activities 
         }
         
         public String obfuscate(){
