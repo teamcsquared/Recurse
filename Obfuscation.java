@@ -4,8 +4,8 @@ public class Obfuscation {
         new Obfuscation().obfuscate(new Obfuscate("bit.ly/"));
     }
     
-    //what does the longest version of the string in line 17 contain after a call of the following method, provided that it does not recurse?
-    //note that some code has been redacted so that it will not compile properly to prevent people from simply running the code.
+    //What does the longest version of the string in line 17 contain after a call of the following method, provided that the method does not recurse?
+    //Note that some code has been redacted.
     Obfuscate.obfuscate obfuscate(Obfuscate obfuscate) {
         return obfuscate(obfuscate.obfuscate(obfuscate).obfuscate(obfuscate.obfuscate(obfuscate).obfuscate(obfuscate) + obfuscate.obfuscate(obfuscate).obfuscate() + obfuscate.obfuscate(obfuscate).obfuscate(obfuscate.obfuscate(obfuscate).Obfuscate(obfuscate), obfuscate.obfuscate(obfuscate).Obfuscate(), obfuscate.obfuscate(obfuscate).Obfuscate(obfuscate.obfuscate(obfuscate))))); 
     }
