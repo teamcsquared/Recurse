@@ -1,0 +1,2 @@
+# Welcome
+Hello and welcome to our third challenge. Only those who we know have completed the second challenge have been presented with this opportunity. Guidelines are as follows: the individual who completes the challenge in its entirety will be guaranteed an officer position. However, those who finish afterwards wil not be given any extra priority in the admissions process to discourage collaboration.
